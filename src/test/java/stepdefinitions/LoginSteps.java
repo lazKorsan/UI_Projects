@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import pages.LoginPage;
 
 public class LoginSteps {
-	WebDriver driver = stepdefinitions.Hooks.getDriver();
+	WebDriver driver = Hooks.getDriver();
 	LoginPage loginPage = new LoginPage(driver);
 
 	@Given("the user is on the login page")

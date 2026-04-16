@@ -19,7 +19,7 @@ import static utils.SendKeysUtils.sendByXpath;
 public class exampleSteps {
 
     private static final Logger logger = LogManager.getLogger(exampleSteps.class);
-    WebDriver driver = stepdefinitions.Hooks.getDriver();
+    WebDriver driver = Hooks.getDriver();
     ExamplePage examplePage = new ExamplePage(driver);
 
     @Given("Kullanici ana sayfaya gider")
